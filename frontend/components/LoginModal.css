@@ -1,0 +1,109 @@
+.login-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .login-modal {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  .tab-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    font-weight: 500;
+  }
+  
+  .tab.active {
+    border-color: #0077ff;
+    color: #0077ff;
+  }
+  
+  .google-login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #f4f4f4;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  
+  .or-divider {
+    margin: 15px 0;
+    color: #888;
+    font-size: 12px;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .forgot-password {
+    font-size: 12px;
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #0077ff;
+    text-decoration: none;
+  }
+  
+  .blue-login-btn {
+    width: 100%;
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .bottom-register-text {
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  
